@@ -1,5 +1,6 @@
 var React = require('react');
 var ReactRouter = require('react-router');
+var data = require('json-loader!../data/store');
 
 var Profile = React.createClass({
   getInitialState: function() {
@@ -10,11 +11,13 @@ var Profile = React.createClass({
     }
   },
   render: function (){
+    //TODO: find a better solution for loading data
+    var data = require('json-loader!../data/store');
+
     return (
       <div>
-        <div>User's profile --> {this.props.params.username}</div>
-        <div>Repos</div>
-        <div>Notes</div>
+        <div>Id: {this.props.params.id}</div>
+        [data[this.props.params.id]]
       </div>
     )
   }

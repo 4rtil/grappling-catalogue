@@ -3,10 +3,10 @@ var React = require('react');
 var Main = React.createClass({
   render: function () {
     return (
-      <header>
-        <nav><h1>4rtil's Grappling Catalogue</h1></nav>
+      <div>
+        <h1>4rtils Grappling Catalogue</h1>
         <div>{this.props.children}</div>
-      </header>
+      </div>
     )
   }
 });
