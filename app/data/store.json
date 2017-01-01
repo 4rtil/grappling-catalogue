@@ -1,0 +1,21 @@
+[{
+  "id": "1",
+  "title": "Kimura",
+  "description": "Arm lock"
+}, {
+  "id": "2",
+  "title": "Americana",
+  "description": "Different arm lock"
+}, {
+  "id": "3",
+  "title": "Side mount",
+  "description": "Position"
+}, {
+  "id": "4",
+  "title": "Mount",
+  "description": "Another position"
+}, {
+  "id": "5",
+  "title": "Balacha",
+  "description": "Default arm lock :)"
+}]
