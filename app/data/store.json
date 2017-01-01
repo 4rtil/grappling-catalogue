@@ -1,7 +1,10 @@
 [{
   "id": "1",
-  "title": "Kimura",
-  "description": "Arm lock"
+  "grappling-name": "kimura",
+  "judo-name": "kimura",
+  "description": "Arm lock",
+  "level": "white",
+  "type": "armlock, leglock, sweep, guard"
 }, {
   "id": "2",
   "title": "Americana",
