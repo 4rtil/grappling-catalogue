@@ -1,13 +1,19 @@
 var React = require('react');
 
-var Home = React.createClass({
-  render: function (){
+class Home extends React.Component {
+  render() {
+
+    //TODO: find a better solution for loading data
+    var data = require('json-loader!../data/store');
+    data = JSON.stringify(data);
+
     return (
-      <h2 className="text-center">
-        Search by Github user name
-      </h2>
+      <div>
+        <h2 className="text-center">List of all BJJ techniques I know</h2>
+        {data}
+      </div>
     )
   }
-});
+}
 
 module.exports = Home;
