@@ -9,6 +9,6 @@ class Main extends React.Component {
       </div>
     )
   }
-}
+};
 
 module.exports = Main;
