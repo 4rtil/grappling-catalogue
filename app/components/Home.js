@@ -1,16 +1,16 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var TechniquesList = require('../components/TechniquesList');
+var Techniques = require('../components/Techniques');
 
-var Home = React.createClass({
-    render: function() {
+class Home extends React.Component {
+    render() {
         return (
           <div>
             <h2 className="text-center">List of all techniques</h2>
-            <TechniquesList />
+            <Techniques />
           </div>
         )
     }
-});
+}
 
 module.exports = Home;
