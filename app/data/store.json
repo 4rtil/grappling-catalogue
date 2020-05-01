@@ -1,22 +1,26 @@
-[{
-  "id": "1",
-  "title": "Trójkąt rękami z kolana na brzuchu",
-  "description": "Z kolana na brzuchu wyłapuję rękę uke (po przeciwnej stronie maty) i wyciągam do siebie pomagając sobie ciężarem ciała. Druga ręka wsuwa sie głęboko pod szyję uke i łapie kark. Chwyt jak do mata leo, z dłonią na bicepsie.",
-  "tags": ["basic", "choke", "neck-crank", "arm-triangle choke","knee-on-belly mount"]
-}, {
-  "id": "2",
-  "title": "Americana",
-  "description": "Different arm lock"
-}, {
-  "id": "3",
-  "title": "Side mount",
-  "description": "Position"
-}, {
-  "id": "4",
-  "title": "Mount",
-  "description": "Another position"
-}, {
-  "id": "5",
-  "title": "Balacha",
-  "description": "Default arm lock :)"
-}]
+[
+  {
+    "id": "1",
+    "title": "Trójkąt rękami z kolana na brzuchu",
+    "description": "Z kolana na brzuchu wyłapuję rękę uke (po przeciwnej stronie maty) i wyciągam do siebie pomagając sobie ciężarem ciała. Druga ręka wsuwa sie głęboko pod szyję uke i łapie kark. Chwyt jak do mata leo, z dłonią na bicepsie.",
+    "media": ["https://www.youtube.com/watch?v=gJ5JQVBJ3YI"],
+    "tags": ["basic", "finishing", "choke", "neck-crank", "arm-triangle choke","knee-on-belly mount"]
+  }, {
+    "id": "2",
+    "title": "Americana from side mount",
+    "description": "Different arm lock",
+    "tags": ["basic", "finishing", "armbar", "side mount"]
+  }, {
+    "id": "3",
+    "title": "Side mount",
+    "description": "Position"
+  }, {
+    "id": "4",
+    "title": "Mount",
+    "description": "Another position"
+  }, {
+    "id": "5",
+    "title": "Balacha",
+    "description": "Default arm lock :)"
+  }
+]

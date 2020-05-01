@@ -10,6 +10,9 @@ for (element in data) {
     <article key={data[element].id}>
       <h1>{data[element].title}</h1>
       <section>{data[element].description}</section>
+      <section>
+        <iframe width="112" height="63" src={data[element].media} allowfullscreen></iframe>
+      </section>
     </article>
   );
 }
